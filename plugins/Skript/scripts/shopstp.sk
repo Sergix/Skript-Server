@@ -1,0 +1,47 @@
+command /shops <string> [<string>]:
+	usage: &7/shops <&blist&7/&etp&7/&3create&7/&6remove&7> [&bNull&7/&eShop&7/&3ShopName&7/&6ShopName&7]
+	trigger:
+		if arg-1 is "list":
+			send "&9Shop List:"
+			send "&7&o%{p-shoplist::*}%"
+		else if arg-1 is "tp" or "teleport":
+			teleport the player to {playershops::%arg-2%}
+			send "Welcome!"
+		else if arg-1 is "create", "new", "make", "set" or "creator":
+			if {shoplimit.%player%} is greater than 2:
+				send "&c&lShop was not created; you are at your limit of shops. You must remove one of your other shops in order to create this one."
+			else:
+				set {playershops::%arg-2%} to the player's location
+				add arg-2 to {p-shoplist::*}
+				send "Created Shop: '%arg-2%'! "
+				add 1 to {shoplimit.%player%} # Addition of this new shop to his/her limit
+		else if arg-1 is "delete" or "remove":
+			remove 1 from {shoplimit.%player%} # Removal of the deleted shop from his/her shop limite
+			remove arg-2 from {playershops::*}
+			remove arg-2 from {p-shoplist::*}
+			remove arg-2 from {playershops::%arg-2%}
+			remove arg-2 from {p-shoplist::%arg-2%}
+			send "&cREMOVED %arg-2%! Make sure this is YOUR OWN SHOP."
+
+
+### BTW, for some reason the deletion system is somewhat broken. For whatever reason even if you delete a shop you can still tp to it. It wont show up in the list though.
+## It might be Skript causing it though, not sure. Let me know if you have any ideas.
+
+
+
+
+
+
+
+# My test command for just clearing all of the used variables.
+
+command /deleteshopdb:
+	trigger:
+		delete {playershops::*}
+		delete {p-shoplist::*}
+		delete {shoplimit.%player%}
+		wait 1 tick
+		send "Output:"
+		send "%{playershops::*}%"
+		send "%{p-shoplist::*}%"
+		send "%{shoplimit.%player%}%"
