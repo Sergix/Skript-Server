@@ -1,0 +1,5 @@
+command /shops <string> [<string>]:
+    trigger:
+        if arg-1 is "add":
+            
+            remove 100 from the player's balance
