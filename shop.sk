@@ -1,0 +1,49 @@
+command /shops <string> [<string>]:
+	usage: &7/shops <&blist&7/&etp&7/&3create&7/&6remove&7> [&bNull&7/&eShop&7/&3ShopName&7/&6ShopName&7]
+	trigger:
+		if arg-1 is "list":
+			send "&9Shop List:"
+			send "&7&o%{p-shoplist::*}%"
+		else if arg-1 is "tp" or "teleport":
+			teleport the player to {playershops::%arg-2%}
+			send "Welcome!"
+		else if arg-1 is "create", "new", "make", "set" or "creator":
+			set {playershops::%arg-2%} to the player's location
+			add arg-2 to {p-shoplist::*}
+			send "Created Shop: '%arg-2%'! "
+		else if arg-1 is "delete" or "remove":
+			remove arg-2 from {playershops::*}
+			remove arg-2 from {p-shoplist::*}
+			remove arg-2 from {playershops::%arg-2%}
+			remove arg-2 from {p-shoplist::%arg-2%}
+			send "&cREMOVED %arg-2%! Make sure this is YOUR OWN SHOP."
+		else if arg-1 is "easteregg":
+			send "Well good job, you found an easter egg. Are you proud?"
+			broadcast "%player% Just found an easter egg! &6WHOA"
+
+
+
+
+on command "/shop":
+	wait 5 ticks
+	send "&9&oLooking for the player shops? The correct command is &6/shop&ls"
+
+
+
+
+command /advertise <string>:
+	usage: /advertise <message>
+	aliases: /ad, /adv, /adver
+	trigger:
+		broadcast "&9[&aAdvertise&9] &6''%arg-1%''  ~&7&o%player%"
+		play "ENTITY_DONKEY_AMBIENT" to player at volume 0.2
+		wait 4 ticks
+		play "ENTITY_DONKEY_AMBIENT" to player at volume 0.2
+		wait 4 ticks
+		play "ENTITY_DONKEY_AMBIENT" to player at volume 0.2
+		wait 4 ticks
+		play "ENTITY_DONKEY_AMBIENT" to player at volume 0.2
+		wait 4 ticks
+		play "ENTITY_DONKEY_AMBIENT" to player at volume 0.2
+		wait 4 ticks
+		play "ENTITY_DONKEY_AMBIENT" to player at volume 0.2

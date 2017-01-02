@@ -1,0 +1,38 @@
+# The Umbaska Config
+# Report issues on *link*
+# Get support on our official Discord server: *discord link*
+
+# This is a fancy mode used for debugging. If umbaska throws any errors on startup, set it to true, and send us
+# the full console log from startup. We really don't care about what plugins you have, don't worry
+# Eventually you can send the log file from plugins/Umabska/logs/latest.log, but it might be missing
+# some important lines
+general-debug-mode: false
+module-loader-debug-mode: false
+
+# This section is about the build-in Umbaska update checker and downloader
+updater:
+
+  # Keep it true unless you don't care about newer versions of Umbaska,
+  # with latest bug-fixes, new features, or performance, stability and security improvements
+  check-for-updates: true
+
+  # The update checker will check for updates every x minutes, starting 30 seconds after
+  # server is loaded, to not slow down your connection when it's sending packets to new players.
+  # The minimal allowed value is 30
+  check-frequency-in-minutes: 120
+
+  # If you set it to true, you will be able to use the command 'umb update' only from console, else
+  # players with permission 'umbaska.update' will also be allowed to do it
+  allow-updating-only-from-console: false
+
+# If you set this to true, a file with all Umbaska's syntaxes will be generated.
+# This is mainly for developers, but you can also use it if you'd like to for some reason.
+# The location of generated file will be plugins/Umbaska/documentation.json
+generate-docs: false
+
+active-development-mode:
+  enabled: false
+  command: stop
+
+# The version of this configuration file. If you change it, a new config will be generated and all values reset
+config-version: 6
