@@ -3,6 +3,7 @@
 *.dat
 *.dat_old
 *.lock
+*.mca
 
 # Minecraft Session/Log Files #
 ###############################
