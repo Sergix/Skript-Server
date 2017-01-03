@@ -1,0 +1,29 @@
+# Minecraft World Files #
+#########################
+*.dat
+*.dat_old
+*.lock
+*.mca
+
+# Minecraft Session/Log Files #
+###############################
+*.lock
+*.log
+*.log.gz
+*.json
+
+# Minecraft Server/Plugin Files #
+#################################
+*.yml
+*.properties
+*.log
+logs/latest.log
+*.yml
+world/session.lock
+*.lock
+world_the_end/session.lock
+*.lock
+world/region/r.-1.0.mca
+*.yml
+spigot.yml
+*.log
