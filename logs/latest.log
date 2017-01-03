@@ -438,3 +438,126 @@
 [21:15:01] [Server thread/INFO]: [0;37;22m[[0;33;22mSkript[0;37;22m][m Successfully reloaded [0;33;22mshopstp.sk[m.[m
 [21:15:05] [Server thread/INFO]: Sergix7440 issued server command: /shops remove 12
 [21:15:05] [Server thread/INFO]: Sergix7440 [906dd8b5-9dea-44e2-9b49-20b239670479]: /shops remove 12
+[21:29:51] [Server thread/INFO]: [0;37;22m[[0;33;22mSkript[0;37;22m][m Reloading [0;33;22mshopstp.sk[m...[m
+[21:29:51] [Server thread/ERROR]: indentation error: expected 5 tabs, but found '->->->->__' [-> = tab, _ = space, ? = other whitespace] (shopstp.sk, line 15: add arg-2 to {%player%::*}')
+[21:29:51] [Server thread/ERROR]: indentation error: expected 5 tabs, but found '->->->->__' [-> = tab, _ = space, ? = other whitespace] (shopstp.sk, line 15: add arg-2 to {%player%::*}')
+[21:29:51] [Server thread/INFO]: [0;37;22m[[0;33;22mSkript[0;37;22m][m [0;31;22mEncountered 2 errors while reloading [0;33;22mshopstp.sk[m![m
+[21:30:08] [Server thread/INFO]: [0;37;22m[[0;33;22mSkript[0;37;22m][m Reloading [0;33;22mshopstp.sk[m...[m
+[21:30:08] [Server thread/WARN]: Starting a variable's name with an expression is discouraged ({%player%::*}). You could prefix it with the script's name: {shopstp.%player%::*} (shopstp.sk, line 15: add arg-2 to {%player%::*}')
+[21:30:08] [Server thread/WARN]: Possible name conflict of variables {%player%::*} and {playershops::*} (there might be more conflicts). (shopstp.sk, line 15: add arg-2 to {%player%::*}')
+[21:30:08] [Server thread/INFO]: [0;37;22m[[0;33;22mSkript[0;37;22m][m Successfully reloaded [0;33;22mshopstp.sk[m.[m
+[21:30:28] [Server thread/INFO]: Sergix7440 issued server command: /shops add Hello
+[21:30:28] [Server thread/INFO]: Sergix7440 [906dd8b5-9dea-44e2-9b49-20b239670479]: /shops add Hello
+[21:30:35] [Server thread/INFO]: Sergix7440 issued server command: /bal
+[21:30:43] [Server thread/INFO]: Sergix7440 issued server command: /shops new Hello
+[21:30:43] [Server thread/INFO]: Sergix7440 [906dd8b5-9dea-44e2-9b49-20b239670479]: /shops new Hello
+[21:30:46] [Server thread/INFO]: Sergix7440 issued server command: /bal
+[21:38:03] [Server thread/INFO]: [0;37;22m[[0;33;22mSkript[0;37;22m][m Reloading [0;33;22mshopstp.sk[m...[m
+[21:38:03] [Server thread/ERROR]: can't understand this condition: '{playershops::%arg-2%} exists and {%player%::%arg-2%} exists' (shopstp.sk, line 24: if {playershops::%arg-2%} exists and {%player%::%arg-2%} exists:')
+[21:38:03] [Server thread/ERROR]: 'else' has to be placed just after an 'if' or 'else if' section (shopstp.sk, line 32: else:')
+[21:38:03] [Server thread/INFO]: [0;37;22m[[0;33;22mSkript[0;37;22m][m [0;31;22mEncountered 2 errors while reloading [0;33;22mshopstp.sk[m![m
+[21:38:22] [Server thread/INFO]: [0;37;22m[[0;33;22mSkript[0;37;22m][m Reloading [0;33;22mshopstp.sk[m...[m
+[21:38:22] [Server thread/ERROR]: indentation error: expected 3 tabs, but found 4 tabs (shopstp.sk, line 25: if {%player%::%arg-2%} exists:')
+[21:38:22] [Server thread/ERROR]: indentation error: expected 3 tabs, but found 5 tabs (shopstp.sk, line 26: remove 1 from {shoplimit.%player%}# Removal of the deleted shop from his/her shop limite')
+[21:38:22] [Server thread/ERROR]: indentation error: expected 3 tabs, but found 5 tabs (shopstp.sk, line 27: remove arg-2 from {playershops::*}')
+[21:38:22] [Server thread/ERROR]: indentation error: expected 3 tabs, but found 5 tabs (shopstp.sk, line 28: remove arg-2 from {p-shoplist::*}')
+[21:38:22] [Server thread/ERROR]: indentation error: expected 3 tabs, but found 5 tabs (shopstp.sk, line 29: remove arg-2 from {playershops::%arg-2%}')
+[21:38:22] [Server thread/ERROR]: indentation error: expected 3 tabs, but found 5 tabs (shopstp.sk, line 30: remove arg-2 from {p-shoplist::%arg-2%}')
+[21:38:22] [Server thread/ERROR]: indentation error: expected 3 tabs, but found 5 tabs (shopstp.sk, line 31: add 30 to the player's account')
+[21:38:22] [Server thread/ERROR]: indentation error: expected 3 tabs, but found 5 tabs (shopstp.sk, line 32: send "&cREMOVED '%arg-2%'! Make sure this is YOUR OWN SHOP."')
+[21:38:22] [Server thread/ERROR]: indentation error: expected 3 tabs, but found 4 tabs (shopstp.sk, line 25: if {%player%::%arg-2%} exists:')
+[21:38:22] [Server thread/ERROR]: indentation error: expected 3 tabs, but found 5 tabs (shopstp.sk, line 26: remove 1 from {shoplimit.%player%}# Removal of the deleted shop from his/her shop limite')
+[21:38:22] [Server thread/ERROR]: indentation error: expected 3 tabs, but found 5 tabs (shopstp.sk, line 27: remove arg-2 from {playershops::*}')
+[21:38:22] [Server thread/ERROR]: indentation error: expected 3 tabs, but found 5 tabs (shopstp.sk, line 28: remove arg-2 from {p-shoplist::*}')
+[21:38:22] [Server thread/ERROR]: indentation error: expected 3 tabs, but found 5 tabs (shopstp.sk, line 29: remove arg-2 from {playershops::%arg-2%}')
+[21:38:22] [Server thread/ERROR]: indentation error: expected 3 tabs, but found 5 tabs (shopstp.sk, line 30: remove arg-2 from {p-shoplist::%arg-2%}')
+[21:38:22] [Server thread/ERROR]: indentation error: expected 3 tabs, but found 5 tabs (shopstp.sk, line 31: add 30 to the player's account')
+[21:38:22] [Server thread/ERROR]: indentation error: expected 3 tabs, but found 5 tabs (shopstp.sk, line 32: send "&cREMOVED '%arg-2%'! Make sure this is YOUR OWN SHOP."')
+[21:38:22] [Server thread/ERROR]: Can't understand this condition/effect: if {playershops::%arg-2%} exists (shopstp.sk, line 24: if {playershops::%arg-2%} exists')
+[21:38:22] [Server thread/ERROR]: 'else' has to be placed just after an 'if' or 'else if' section (shopstp.sk, line 33: else:')
+[21:38:22] [Server thread/INFO]: [0;37;22m[[0;33;22mSkript[0;37;22m][m [0;31;22mEncountered 18 errors while reloading [0;33;22mshopstp.sk[m![m
+[21:38:54] [Server thread/INFO]: [0;37;22m[[0;33;22mSkript[0;37;22m][m Reloading [0;33;22mshopstp.sk[m...[m
+[21:38:54] [Server thread/ERROR]: indentation error: expected 3 tabs, but found 4 tabs (shopstp.sk, line 25: if {%player%::%arg-2%} exists:')
+[21:38:54] [Server thread/ERROR]: indentation error: expected 3 tabs, but found 5 tabs (shopstp.sk, line 26: remove 1 from {shoplimit.%player%}# Removal of the deleted shop from his/her shop limite')
+[21:38:54] [Server thread/ERROR]: indentation error: expected 3 tabs, but found 5 tabs (shopstp.sk, line 27: remove arg-2 from {playershops::*}')
+[21:38:54] [Server thread/ERROR]: indentation error: expected 3 tabs, but found 5 tabs (shopstp.sk, line 28: remove arg-2 from {p-shoplist::*}')
+[21:38:54] [Server thread/ERROR]: indentation error: expected 3 tabs, but found 5 tabs (shopstp.sk, line 29: remove arg-2 from {playershops::%arg-2%}')
+[21:38:54] [Server thread/ERROR]: indentation error: expected 3 tabs, but found 5 tabs (shopstp.sk, line 30: remove arg-2 from {p-shoplist::%arg-2%}')
+[21:38:54] [Server thread/ERROR]: indentation error: expected 3 tabs, but found 5 tabs (shopstp.sk, line 31: add 30 to the player's account')
+[21:38:54] [Server thread/ERROR]: indentation error: expected 3 tabs, but found 5 tabs (shopstp.sk, line 32: send "&cREMOVED '%arg-2%'! Make sure this is YOUR OWN SHOP."')
+[21:38:54] [Server thread/ERROR]: indentation error: expected 3 tabs, but found 4 tabs (shopstp.sk, line 25: if {%player%::%arg-2%} exists:')
+[21:38:54] [Server thread/ERROR]: indentation error: expected 3 tabs, but found 5 tabs (shopstp.sk, line 26: remove 1 from {shoplimit.%player%}# Removal of the deleted shop from his/her shop limite')
+[21:38:54] [Server thread/ERROR]: indentation error: expected 3 tabs, but found 5 tabs (shopstp.sk, line 27: remove arg-2 from {playershops::*}')
+[21:38:54] [Server thread/ERROR]: indentation error: expected 3 tabs, but found 5 tabs (shopstp.sk, line 28: remove arg-2 from {p-shoplist::*}')
+[21:38:54] [Server thread/ERROR]: indentation error: expected 3 tabs, but found 5 tabs (shopstp.sk, line 29: remove arg-2 from {playershops::%arg-2%}')
+[21:38:54] [Server thread/ERROR]: indentation error: expected 3 tabs, but found 5 tabs (shopstp.sk, line 30: remove arg-2 from {p-shoplist::%arg-2%}')
+[21:38:54] [Server thread/ERROR]: indentation error: expected 3 tabs, but found 5 tabs (shopstp.sk, line 31: add 30 to the player's account')
+[21:38:54] [Server thread/ERROR]: indentation error: expected 3 tabs, but found 5 tabs (shopstp.sk, line 32: send "&cREMOVED '%arg-2%'! Make sure this is YOUR OWN SHOP."')
+[21:38:54] [Server thread/ERROR]: Can't understand this condition/effect: if {playershops::%arg-2%} exists (shopstp.sk, line 24: if {playershops::%arg-2%} exists')
+[21:38:54] [Server thread/ERROR]: 'else' has to be placed just after an 'if' or 'else if' section (shopstp.sk, line 33: else:')
+[21:38:54] [Server thread/INFO]: [0;37;22m[[0;33;22mSkript[0;37;22m][m [0;31;22mEncountered 18 errors while reloading [0;33;22mshopstp.sk[m![m
+[21:39:20] [Server thread/INFO]: [0;37;22m[[0;33;22mSkript[0;37;22m][m Reloading [0;33;22mshopstp.sk[m...[m
+[21:39:20] [Server thread/ERROR]: indentation error: expected 3 tabs, but found 5 tabs (shopstp.sk, line 25: if {%player%::%arg-2%} exists:')
+[21:39:20] [Server thread/ERROR]: indentation error: expected 3 tabs, but found 5 tabs (shopstp.sk, line 26: remove 1 from {shoplimit.%player%}# Removal of the deleted shop from his/her shop limite')
+[21:39:20] [Server thread/ERROR]: indentation error: expected 3 tabs, but found 5 tabs (shopstp.sk, line 27: remove arg-2 from {playershops::*}')
+[21:39:20] [Server thread/ERROR]: indentation error: expected 3 tabs, but found 5 tabs (shopstp.sk, line 28: remove arg-2 from {p-shoplist::*}')
+[21:39:20] [Server thread/ERROR]: indentation error: expected 3 tabs, but found 5 tabs (shopstp.sk, line 29: remove arg-2 from {playershops::%arg-2%}')
+[21:39:20] [Server thread/ERROR]: indentation error: expected 3 tabs, but found 5 tabs (shopstp.sk, line 30: remove arg-2 from {p-shoplist::%arg-2%}')
+[21:39:20] [Server thread/ERROR]: indentation error: expected 3 tabs, but found 5 tabs (shopstp.sk, line 31: add 30 to the player's account')
+[21:39:20] [Server thread/ERROR]: indentation error: expected 3 tabs, but found 5 tabs (shopstp.sk, line 32: send "&cREMOVED '%arg-2%'! Make sure this is YOUR OWN SHOP."')
+[21:39:20] [Server thread/ERROR]: indentation error: expected 3 tabs, but found 5 tabs (shopstp.sk, line 25: if {%player%::%arg-2%} exists:')
+[21:39:20] [Server thread/ERROR]: indentation error: expected 3 tabs, but found 5 tabs (shopstp.sk, line 26: remove 1 from {shoplimit.%player%}# Removal of the deleted shop from his/her shop limite')
+[21:39:20] [Server thread/ERROR]: indentation error: expected 3 tabs, but found 5 tabs (shopstp.sk, line 27: remove arg-2 from {playershops::*}')
+[21:39:20] [Server thread/ERROR]: indentation error: expected 3 tabs, but found 5 tabs (shopstp.sk, line 28: remove arg-2 from {p-shoplist::*}')
+[21:39:20] [Server thread/ERROR]: indentation error: expected 3 tabs, but found 5 tabs (shopstp.sk, line 29: remove arg-2 from {playershops::%arg-2%}')
+[21:39:20] [Server thread/ERROR]: indentation error: expected 3 tabs, but found 5 tabs (shopstp.sk, line 30: remove arg-2 from {p-shoplist::%arg-2%}')
+[21:39:20] [Server thread/ERROR]: indentation error: expected 3 tabs, but found 5 tabs (shopstp.sk, line 31: add 30 to the player's account')
+[21:39:20] [Server thread/ERROR]: indentation error: expected 3 tabs, but found 5 tabs (shopstp.sk, line 32: send "&cREMOVED '%arg-2%'! Make sure this is YOUR OWN SHOP."')
+[21:39:20] [Server thread/ERROR]: Can't understand this condition/effect: if {playershops::%arg-2%} exists (shopstp.sk, line 24: if {playershops::%arg-2%} exists')
+[21:39:20] [Server thread/ERROR]: 'else' has to be placed just after an 'if' or 'else if' section (shopstp.sk, line 33: else:')
+[21:39:20] [Server thread/INFO]: [0;37;22m[[0;33;22mSkript[0;37;22m][m [0;31;22mEncountered 18 errors while reloading [0;33;22mshopstp.sk[m![m
+[21:39:59] [Server thread/INFO]: [0;37;22m[[0;33;22mSkript[0;37;22m][m Reloading [0;33;22mshopstp.sk[m...[m
+[21:39:59] [Server thread/ERROR]: indentation error: expected 3 tabs, but found 4 tabs (shopstp.sk, line 25: if {%player%::%arg-2%} exists:')
+[21:39:59] [Server thread/ERROR]: indentation error: expected 3 tabs, but found 4 tabs (shopstp.sk, line 26: remove 1 from {shoplimit.%player%}# Removal of the deleted shop from his/her shop limite')
+[21:39:59] [Server thread/ERROR]: indentation error: expected 3 tabs, but found 4 tabs (shopstp.sk, line 27: remove arg-2 from {playershops::*}')
+[21:39:59] [Server thread/ERROR]: indentation error: expected 3 tabs, but found 4 tabs (shopstp.sk, line 28: remove arg-2 from {p-shoplist::*}')
+[21:39:59] [Server thread/ERROR]: indentation error: expected 3 tabs, but found 4 tabs (shopstp.sk, line 29: remove arg-2 from {playershops::%arg-2%}')
+[21:39:59] [Server thread/ERROR]: indentation error: expected 3 tabs, but found 4 tabs (shopstp.sk, line 30: remove arg-2 from {p-shoplist::%arg-2%}')
+[21:39:59] [Server thread/ERROR]: indentation error: expected 3 tabs, but found 4 tabs (shopstp.sk, line 31: add 30 to the player's account')
+[21:39:59] [Server thread/ERROR]: indentation error: expected 3 tabs, but found 4 tabs (shopstp.sk, line 32: send "&cREMOVED '%arg-2%'! Make sure this is YOUR OWN SHOP."')
+[21:39:59] [Server thread/ERROR]: indentation error: expected 3 tabs, but found 4 tabs (shopstp.sk, line 25: if {%player%::%arg-2%} exists:')
+[21:39:59] [Server thread/ERROR]: indentation error: expected 3 tabs, but found 4 tabs (shopstp.sk, line 26: remove 1 from {shoplimit.%player%}# Removal of the deleted shop from his/her shop limite')
+[21:39:59] [Server thread/ERROR]: indentation error: expected 3 tabs, but found 4 tabs (shopstp.sk, line 27: remove arg-2 from {playershops::*}')
+[21:39:59] [Server thread/ERROR]: indentation error: expected 3 tabs, but found 4 tabs (shopstp.sk, line 28: remove arg-2 from {p-shoplist::*}')
+[21:39:59] [Server thread/ERROR]: indentation error: expected 3 tabs, but found 4 tabs (shopstp.sk, line 29: remove arg-2 from {playershops::%arg-2%}')
+[21:39:59] [Server thread/ERROR]: indentation error: expected 3 tabs, but found 4 tabs (shopstp.sk, line 30: remove arg-2 from {p-shoplist::%arg-2%}')
+[21:39:59] [Server thread/ERROR]: indentation error: expected 3 tabs, but found 4 tabs (shopstp.sk, line 31: add 30 to the player's account')
+[21:39:59] [Server thread/ERROR]: indentation error: expected 3 tabs, but found 4 tabs (shopstp.sk, line 32: send "&cREMOVED '%arg-2%'! Make sure this is YOUR OWN SHOP."')
+[21:39:59] [Server thread/ERROR]: Can't understand this condition/effect: if {playershops::%arg-2%} exists (shopstp.sk, line 24: if {playershops::%arg-2%} exists')
+[21:39:59] [Server thread/ERROR]: 'else' has to be placed just after an 'if' or 'else if' section (shopstp.sk, line 33: else:')
+[21:39:59] [Server thread/INFO]: [0;37;22m[[0;33;22mSkript[0;37;22m][m [0;31;22mEncountered 18 errors while reloading [0;33;22mshopstp.sk[m![m
+[21:40:09] [Server thread/INFO]: [0;37;22m[[0;33;22mSkript[0;37;22m][m Reloading [0;33;22mshopstp.sk[m...[m
+[21:40:09] [Server thread/WARN]: Empty configuration section! You might want to indent one or more of the subsequent lines to make them belong to this section or remove the colon at the end of the line if you don't want this line to start a section. (shopstp.sk, line 25: if {%player%::%arg-2%} exists:')
+[21:40:09] [Server thread/WARN]: Empty configuration section! You might want to indent one or more of the subsequent lines to make them belong to this section or remove the colon at the end of the line if you don't want this line to start a section. (shopstp.sk, line 25: if {%player%::%arg-2%} exists:')
+[21:40:09] [Server thread/WARN]: Starting a variable's name with an expression is discouraged ({%player%::%arg-2%}). You could prefix it with the script's name: {shopstp.%player%::%arg-2%} (shopstp.sk, line 25: if {%player%::%arg-2%} exists:')
+[21:40:09] [Server thread/WARN]: Possible name conflict of variables {%player%::%arg-2%} and {playershops::*} (there might be more conflicts). (shopstp.sk, line 25: if {%player%::%arg-2%} exists:')
+[21:40:09] [Server thread/INFO]: [0;37;22m[[0;33;22mSkript[0;37;22m][m Successfully reloaded [0;33;22mshopstp.sk[m.[m
+[21:40:16] [Server thread/INFO]: Sergix7440 issued server command: /shops list
+[21:40:16] [Server thread/INFO]: Sergix7440 [906dd8b5-9dea-44e2-9b49-20b239670479]: /shops list
+[21:40:44] [Server thread/INFO]: Sergix7440 issued server command: /shops remove Hello
+[21:40:44] [Server thread/INFO]: Sergix7440 [906dd8b5-9dea-44e2-9b49-20b239670479]: /shops remove Hello
+[21:40:51] [Server thread/INFO]: Sergix7440 issued server command: /shops create Hello
+[21:40:51] [Server thread/INFO]: Sergix7440 [906dd8b5-9dea-44e2-9b49-20b239670479]: /shops create Hello
+[21:40:53] [Server thread/INFO]: Sergix7440 issued server command: /bal
+[21:41:00] [Server thread/INFO]: Sergix7440 issued server command: /eco give Sergix7440 1000
+[21:41:09] [Server thread/INFO]: Sergix7440 issued server command: /shops add Hello1
+[21:41:09] [Server thread/INFO]: Sergix7440 [906dd8b5-9dea-44e2-9b49-20b239670479]: /shops add Hello1
+[21:41:17] [Server thread/INFO]: Sergix7440 issued server command: /shops new Hello1
+[21:41:17] [Server thread/INFO]: Sergix7440 [906dd8b5-9dea-44e2-9b49-20b239670479]: /shops new Hello1
+[21:41:20] [Server thread/INFO]: Sergix7440 issued server command: /bal
+[21:41:27] [Server thread/INFO]: Sergix7440 issued server command: /shops remove Hello1
+[21:41:27] [Server thread/INFO]: Sergix7440 [906dd8b5-9dea-44e2-9b49-20b239670479]: /shops remove Hello1
+[21:45:45] [Server thread/INFO]: Sergix7440 lost connection: Disconnected
+[21:45:45] [Server thread/INFO]: Sergix7440 left the game
+[21:51:35] [Server thread/INFO]: [0;37;22m[[0;33;22mSkript[0;37;22m][m Reloading [0;33;22mshopstp.sk[m...[m
+[21:51:35] [Server thread/INFO]: [0;37;22m[[0;33;22mSkript[0;37;22m][m Successfully reloaded [0;33;22mshopstp.sk[m.[m
