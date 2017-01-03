@@ -12,15 +12,17 @@ command /shops <string> [<string>]:
 				send "&c&lShop was not created; you are at your limit of shops. You must remove one of your other shops in order to create this one."
 			else:
 				if the player's money is greater than or equal to 100:
+					add arg-2 to {%player%::*}
 					remove 100 from the player's money
 					set {playershops::%arg-2%} to the player's location
 					add arg-2 to {p-shoplist::*}
-					send "Created Shop: '%arg-2%'! "
+					send "Created Shop: '%arg-2%'!"
 					add 1 to {shoplimit.%player%} # Addition of this new shop to his/her limit
 				else:
 					send "You do not have sufficient funds to create a shop!"
 		else if arg-1 is "delete" or "remove":
 			if {playershops::%arg-2%} exists:
+				if {%player%::%arg-2%} exists:
 				remove 1 from {shoplimit.%player%} # Removal of the deleted shop from his/her shop limite
 				remove arg-2 from {playershops::*}
 				remove arg-2 from {p-shoplist::*}
@@ -30,13 +32,3 @@ command /shops <string> [<string>]:
 				send "&cREMOVED '%arg-2%'! Make sure this is YOUR OWN SHOP."
 			else:
 				send "&cShop '%arg-2%' does not exist!"
-command /deleteshopdb:
-	trigger:
-		delete {playershops::*}
-		delete {p-shoplist::*}
-		delete {shoplimit.%player%}
-		wait 1 tick
-		send "Output:"
-		send "%{playershops::*}%"
-		send "%{p-shoplist::*}%"
-		send "%{shoplimit.%player%}%"
