@@ -6,3 +6,4 @@ plugins/Skript/variables.csv
 plugins/Umbaska/logs/latest.log
 *.mca
 logs/latest.log
+*.mca
