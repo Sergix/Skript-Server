@@ -11,7 +11,7 @@ command /shops <string> [<string>]:
 			if {shoplimit.%player%} is greater than 2:
 				send "&c&lShop was not created; you are at your limit of shops. You must remove one of your other shops in order to create this one."
 			else:
-				if {%player%.money} is greater than 100:
+				if the player's money is greater than or equal to 100:
 					remove 100 from the player's money
 					set {playershops::%arg-2%} to the player's location
 					add arg-2 to {p-shoplist::*}
@@ -20,13 +20,16 @@ command /shops <string> [<string>]:
 				else:
 					send "You do not have sufficient funds to create a shop!"
 		else if arg-1 is "delete" or "remove":
-			remove 1 from {shoplimit.%player%} # Removal of the deleted shop from his/her shop limite
-			remove arg-2 from {playershops::*}
-			remove arg-2 from {p-shoplist::*}
-			remove arg-2 from {playershops::%arg-2%}
-			remove arg-2 from {p-shoplist::%arg-2%}
-			send "&cREMOVED %arg-2%! Make sure this is YOUR OWN SHOP."
-
+			if {playershops::%arg-2%} exists:
+				remove 1 from {shoplimit.%player%} # Removal of the deleted shop from his/her shop limite
+				remove arg-2 from {playershops::*}
+				remove arg-2 from {p-shoplist::*}
+				remove arg-2 from {playershops::%arg-2%}
+				remove arg-2 from {p-shoplist::%arg-2%}
+				add 30 to the player's account
+				send "&cREMOVED '%arg-2%'! Make sure this is YOUR OWN SHOP."
+			else:
+				send "&cShop '%arg-2%' does not exist!"
 command /deleteshopdb:
 	trigger:
 		delete {playershops::*}
