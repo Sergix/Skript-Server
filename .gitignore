@@ -1,2 +1,8 @@
 permissions.yml
 *.gz
+*.log
+plugins/Skript/variables.csv
+*.log
+plugins/Umbaska/logs/latest.log
+*.mca
+logs/latest.log
