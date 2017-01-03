@@ -2,33 +2,24 @@ command /shops <string> [<string>]:
 	usage: &7/shops <&blist&7/&etp&7/&3create&7/&6remove&7> [&bNull&7/&eShop&7/&3ShopName&7/&6ShopName&7]
 	trigger:
 		if arg-1 is "list":
-			send "&9Shop List:"
-			send "&7&o%{p-shoplist::*}%"
+			send "&9Shops:"
+			send "&7%{shop-name-cache::*}%"
+		else if arg-1 is "create":
+			if player's money is greater than 100:
+				remove 100 from the player's account
+				set {shop-loc-cache::%arg-2%} to the player's location
+				add arg-2 to {shop-name-cache::*}
+				add arg-2 to {shops.owned.%player%::*}
+			else:
+				send "You do not have sufficient funds to create a shop!"
+		else if arg-1 is "remove" or "delete":
+			if {shops.owned.%player%::*} contains arg-2:
+				add 30 to the player's balance
+				remove arg-2 from {shop-name-cache::*}
+				remove arg-2 from {shops.owned.%player%::*}
+				delete {shop-loc-cache::%arg-2%}
+				send "Shop '%arg-2%' deleted"
+			else:
+				send "You do not own that shop!"
 		else if arg-1 is "tp" or "teleport":
-			teleport the player to {playershops::%arg-2%}
-			send "Welcome!"
-		else if arg-1 is "create", "new", "make", "set" or "creator":
-			if {shoplimit.%player%} is greater than 2:
-				send "&c&lShop was not created; you are at your limit of shops. You must remove one of your other shops in order to create this one."
-			else:
-				if the player's money is greater than or equal to 100:
-					add arg-2 to {%player%::*}
-					remove 100 from the player's money
-					set {playershops::%arg-2%} to the player's location
-					add arg-2 to {p-shoplist::*}
-					send "Created Shop: '%arg-2%'!"
-					add 1 to {shoplimit.%player%} # Addition of this new shop to his/her limit
-				else:
-					send "You do not have sufficient funds to create a shop!"
-		else if arg-1 is "delete" or "remove":
-			if {playershops::%arg-2%} exists:
-				if {%player%::%arg-2%} exists:
-				remove 1 from {shoplimit.%player%} # Removal of the deleted shop from his/her shop limite
-				remove arg-2 from {playershops::*}
-				remove arg-2 from {p-shoplist::*}
-				remove arg-2 from {playershops::%arg-2%}
-				remove arg-2 from {p-shoplist::%arg-2%}
-				add 30 to the player's account
-				send "&cREMOVED '%arg-2%'! Make sure this is YOUR OWN SHOP."
-			else:
-				send "&cShop '%arg-2%' does not exist!"
+			teleport the player to {shop-loc-cache::%arg-2%}
