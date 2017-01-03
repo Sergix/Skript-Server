@@ -336,3 +336,279 @@
 [14:02:22] [Server thread/INFO]: Sergix7440 issued server command: /opmeplz
 [14:04:38] [Server thread/INFO]: Sergix7440 lost connection: Disconnected
 [14:04:38] [Server thread/INFO]: Sergix7440 left the game
+[20:49:36] [Server thread/INFO]: Starting minecraft server version 1.11.2
+[20:49:36] [Server thread/INFO]: Loading properties
+[20:49:36] [Server thread/INFO]: Default game type: SURVIVAL
+[20:49:36] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-7d78b81-0fb3f8b (MC: 1.11.2) (Implementing API version 1.11.2-R0.1-SNAPSHOT)
+[20:49:37] [Server thread/INFO]: Debug logging is disabled
+[20:49:37] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:49:37] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:49:37] [Server thread/INFO]: Generating keypair
+[20:49:37] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:49:37] [Server thread/INFO]: Using default channel type
+[20:49:37] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[20:49:37] [Server thread/INFO]: [Skript] Loading Skript v2.2-dev22g
+[20:49:37] [Server thread/INFO]: [skRayFall] Loading skRayFall v1.9.7
+[20:49:37] [Server thread/INFO]: [Umbaska] Loading Umbaska v3-dev34
+[20:49:37] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[20:49:37] [Server thread/INFO]: Preparing level "world"
+[20:49:37] [Server thread/INFO]: -------- World Settings For [world] --------
+[20:49:37] [Server thread/INFO]: Item Merge Radius: 2.5
+[20:49:37] [Server thread/INFO]: Item Despawn Rate: 6000
+[20:49:37] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[20:49:37] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[20:49:37] [Server thread/INFO]: View Distance: 10
+[20:49:37] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[20:49:37] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[20:49:37] [Server thread/INFO]: Random Lighting Updates: false
+[20:49:37] [Server thread/INFO]: Structure Info Saving: true
+[20:49:37] [Server thread/INFO]: Max TNT Explosions: 100
+[20:49:37] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[20:49:37] [Server thread/INFO]: Mob Spawn Range: 4
+[20:49:37] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[20:49:37] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[20:49:37] [Server thread/INFO]: Cane Growth Modifier: 100%
+[20:49:37] [Server thread/INFO]: Melon Growth Modifier: 100%
+[20:49:37] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[20:49:37] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[20:49:37] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[20:49:37] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[20:49:37] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[20:49:37] [Server thread/INFO]: Vine Growth Modifier: 100%
+[20:49:37] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[20:49:37] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[20:49:37] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[20:49:37] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[20:49:37] [Server thread/INFO]: Experience Merge Radius: 3.0
+[20:49:37] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[20:49:37] [Server thread/INFO]: Item Merge Radius: 2.5
+[20:49:37] [Server thread/INFO]: Item Despawn Rate: 6000
+[20:49:37] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[20:49:37] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[20:49:37] [Server thread/INFO]: View Distance: 10
+[20:49:37] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[20:49:37] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[20:49:37] [Server thread/INFO]: Random Lighting Updates: false
+[20:49:37] [Server thread/INFO]: Structure Info Saving: true
+[20:49:37] [Server thread/INFO]: Max TNT Explosions: 100
+[20:49:37] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[20:49:37] [Server thread/INFO]: Mob Spawn Range: 4
+[20:49:37] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[20:49:37] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[20:49:37] [Server thread/INFO]: Cane Growth Modifier: 100%
+[20:49:37] [Server thread/INFO]: Melon Growth Modifier: 100%
+[20:49:37] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[20:49:37] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[20:49:37] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[20:49:37] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[20:49:37] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[20:49:37] [Server thread/INFO]: Vine Growth Modifier: 100%
+[20:49:37] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[20:49:37] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[20:49:37] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[20:49:37] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[20:49:37] [Server thread/INFO]: Experience Merge Radius: 3.0
+[20:49:38] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[20:49:38] [Server thread/INFO]: Item Merge Radius: 2.5
+[20:49:38] [Server thread/INFO]: Item Despawn Rate: 6000
+[20:49:38] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[20:49:38] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[20:49:38] [Server thread/INFO]: View Distance: 10
+[20:49:38] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[20:49:38] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[20:49:38] [Server thread/INFO]: Random Lighting Updates: false
+[20:49:38] [Server thread/INFO]: Structure Info Saving: true
+[20:49:38] [Server thread/INFO]: Max TNT Explosions: 100
+[20:49:38] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[20:49:38] [Server thread/INFO]: Mob Spawn Range: 4
+[20:49:38] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[20:49:38] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[20:49:38] [Server thread/INFO]: Cane Growth Modifier: 100%
+[20:49:38] [Server thread/INFO]: Melon Growth Modifier: 100%
+[20:49:38] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[20:49:38] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[20:49:38] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[20:49:38] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[20:49:38] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[20:49:38] [Server thread/INFO]: Vine Growth Modifier: 100%
+[20:49:38] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[20:49:38] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[20:49:38] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[20:49:38] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[20:49:38] [Server thread/INFO]: Experience Merge Radius: 3.0
+[20:49:38] [Server thread/INFO]: Preparing start region for level 0 (Seed: 6644277049522061815)
+[20:49:39] [Server thread/INFO]: Preparing spawn area: 10%
+[20:49:40] [Server thread/INFO]: Preparing spawn area: 93%
+[20:49:40] [Server thread/INFO]: Preparing start region for level 1 (Seed: 6644277049522061815)
+[20:49:41] [Server thread/INFO]: Preparing spawn area: 58%
+[20:49:41] [Server thread/INFO]: Preparing start region for level 2 (Seed: 6644277049522061815)
+[20:49:42] [Server thread/INFO]: [Skript] Enabling Skript v2.2-dev22g
+[20:49:43] [Server thread/INFO]: [Skript] Starting updater thread
+[20:49:44] [Server thread/INFO]: [Skript] Loaded a total of 19994 english aliases
+[20:49:44] [Server thread/WARN]: [Skript] There are no aliases defined for the following ids: 438, 441, 452
+[20:49:44] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
+[20:49:44] [Server thread/INFO]: [skRayFall] Enabling skRayFall v1.9.7
+[20:49:44] [Server thread/INFO]: [skRayFall] Yay! You are running skRayFall 1.9.7!
+[20:49:44] [Server thread/INFO]: [skRayFall] Nathan and Lewis <3 you.
+[20:49:44] [Server thread/INFO]: [skRayFall] Cooking Bacon...
+[20:49:44] [Server thread/INFO]: [skRayFall] Citizens not found! Sorry you cant make friends, but don't worry we will still be your friend <3
+[20:49:44] [Server thread/INFO]: [skRayFall] Got bacon for the EffectLib partical ninjas!
+[20:49:44] [Server thread/INFO]: [skRayFall] No Votifier Found! *Checks oven for finished bacon*
+[20:49:44] [Server thread/INFO]: [skRayFall] Enabling general 1.8/1.9/1.10/1.11 bacon!
+[20:49:44] [Server thread/INFO]: [skRayFall] Getting the general 1.9-1.11 bacon!
+[20:49:44] [Server thread/INFO]: [skRayFall] Getting the extra special 1.11 bacon!
+[20:49:45] [Server thread/INFO]: [skRayFall] Bacon is ready!
+[20:49:45] [Server thread/INFO]: [Umbaska] Enabling Umbaska v3-dev34
+[20:49:46] [Server thread/INFO]: [Umbaska] The config C:\Users\Sergi\Documents\GitHub\Skript-Server\plugins\Umbaska\config.yml is up to date (version 6)
+[20:49:46] [Server thread/INFO]: [Umbaska Module Manager] Checking C:\Users\Sergi\Documents\GitHub\Skript-Server\plugins\Umbaska\modules\Core.jar
+[20:49:46] [Server thread/INFO]: [Umbaska Module Manager] Loading module Core v0.1.0 (1)
+[20:49:46] [Server thread/INFO]: [Umbaska Module Manager] Enabling module Core v0.1.0 (1)
+[20:49:46] [Server thread/INFO]: [Umbaska] Found 51 elements to register out of 87 classes in package uk.co.umbaska.modules.misc
+[20:49:46] [Server thread/INFO]: [Umbaska] Checking uk.co.umbaska.modules.misc.betatesting.CopyOfEffLateRegister
+[20:49:46] [Server thread/WARN]: [Umbaska] [Fail] Couldn't register this effect because the Syntaxes annotation is null
+[20:49:46] [Server thread/INFO]: [Umbaska] Checking uk.co.umbaska.modules.misc.betatesting.EffLateRegister
+[20:49:46] [Server thread/INFO]: [Umbaska] Registering a(n) effect with syntax: perform a late register
+[20:49:46] [Server thread/INFO]: [Umbaska] Checking uk.co.umbaska.modules.misc.conditions.CondAlwaysFalse
+[20:49:46] [Server thread/INFO]: [Umbaska] Registering a(n) condition with syntax: always false
+[20:49:46] [Server thread/INFO]: [Umbaska] And: never true
+[20:49:46] [Server thread/INFO]: [Umbaska] And: (skript|umbaska) is not great
+[20:49:46] [Server thread/INFO]: [Umbaska] Checking uk.co.umbaska.modules.misc.conditions.CondAlwaysTrue
+[20:49:46] [Server thread/INFO]: [Umbaska] Registering a(n) condition with syntax: always true
+[20:49:46] [Server thread/INFO]: [Umbaska] And: never false
+[20:49:46] [Server thread/INFO]: [Umbaska] And: (skript|umbaska) is great
+[20:49:46] [Server thread/INFO]: [Umbaska] Checking uk.co.umbaska.modules.misc.effects.EffDisableAllPlugins
+[20:49:46] [Server thread/INFO]: [Umbaska] Registering a(n) effect with syntax: disable all plugins
+[20:49:46] [Server thread/INFO]: [Umbaska] And: disable every plugin
+[20:49:46] [Server thread/INFO]: [Umbaska] Checking uk.co.umbaska.modules.misc.effects.EffEvaluateSkriptCode
+[20:49:46] [Server thread/INFO]: [Umbaska] [uk.co.umbaska.modules.misc.effects.EffEvaluateSkriptCode] Detected annotation DontRegister. Aborting.
+[20:49:46] [Server thread/INFO]: [Umbaska] Checking uk.co.umbaska.modules.misc.effects.EffThrowRuntimeException
+[20:49:46] [Server thread/INFO]: [Umbaska] Registering a(n) effect with syntax: throw [a] runtime[ ]exception
+[20:49:46] [Server thread/INFO]: [Umbaska] Checking uk.co.umbaska.modules.misc.effects.ExecuteSkriptCodeFromText
+[20:49:46] [Server thread/INFO]: [Umbaska] Registering a(n) effect with syntax: execute [(skript|script)] code [from (text|lines)] %strings%
+[20:49:46] [Server thread/INFO]: [Umbaska] Checking uk.co.umbaska.modules.misc.effects.LoadScriptFromText
+[20:49:46] [Server thread/INFO]: [Umbaska] Registering a(n) effect with syntax: load [a] (script|skript) from (text|lines) %strings%
+[20:49:46] [Server thread/INFO]: [Umbaska] Checking uk.co.umbaska.modules.misc.expressions.ExprClassNameOfObject
+[20:49:46] [Server thread/INFO]: [Umbaska] Registering a(n) expression with syntax: [the] class[[ ]name] of [the] [object] %object%
+[20:49:46] [Server thread/INFO]: [Umbaska] And: [the] name of [the] class of [the] [object] %object%
+[20:49:46] [Server thread/INFO]: [Umbaska] Checking uk.co.umbaska.modules.misc.expressions.ExprFullTime
+[20:49:46] [Server thread/INFO]: [Umbaska] Registering a(n) expression with syntax: (full|total)[ ]time of %world%
+[20:49:46] [Server thread/INFO]: [Umbaska] And: %world%'s (full|total)[ ]time
+[20:49:46] [Server thread/INFO]: [Umbaska] Checking uk.co.umbaska.modules.misc.expressions.ExprJsonArray
+[20:49:46] [Server thread/INFO]: [Umbaska] Registering a(n) expression with syntax: json (string|text) %string% from [json] %string%
+[20:49:46] [Server thread/INFO]: [Umbaska] Checking uk.co.umbaska.modules.misc.expressions.ExprJsonString
+[20:49:46] [Server thread/INFO]: [Umbaska] Registering a(n) expression with syntax: json (string|text) %string% from [json] %string%
+[20:49:46] [Server thread/INFO]: [Umbaska] Checking uk.co.umbaska.modules.misc.expressions.ExprModuleVersion
+[20:49:46] [Server thread/INFO]: [Umbaska] Registering a(n) expression with syntax: [the] version [string] of [the] [umbaska] module [(named|with name)] %string%
+[20:49:46] [Server thread/INFO]: [Umbaska] Checking uk.co.umbaska.modules.misc.expressions.ExprNewChunk
+[20:49:46] [Server thread/INFO]: [Umbaska] Registering a(n) expression with syntax: new chunk
+[20:49:46] [Server thread/INFO]: [Umbaska] Checking uk.co.umbaska.modules.misc.expressions.ExprNewLine
+[20:49:46] [Server thread/INFO]: [Umbaska] Registering a(n) expression with syntax: new[ ]line
+[20:49:46] [Server thread/INFO]: [Umbaska] And: nl
+[20:49:46] [Server thread/INFO]: [Umbaska] And: system line
+[20:49:46] [Server thread/INFO]: [Umbaska] Checking uk.co.umbaska.modules.misc.expressions.ExprObjectAtPosition
+[20:49:46] [Server thread/INFO]: [Umbaska] Registering a(n) expression with syntax: %*classinfo% at [the] pos[ition] %number% (of|in) [the] [(list|array)] %objects%
+[20:49:46] [Server thread/INFO]: [Umbaska] Checking uk.co.umbaska.modules.misc.expressions.ExprOldChunk
+[20:49:46] [Server thread/INFO]: [Umbaska] Registering a(n) expression with syntax: old chunk
+[20:49:46] [Server thread/INFO]: [Umbaska] Checking uk.co.umbaska.modules.misc.expressions.ExprPastebin
+[20:49:46] [Server thread/INFO]: [Umbaska] [uk.co.umbaska.modules.misc.expressions.ExprPastebin] Detected annotation DontRegister. Aborting.
+[20:49:46] [Server thread/INFO]: [Umbaska] Checking uk.co.umbaska.modules.misc.expressions.ExprPlayersFlying
+[20:49:46] [Server thread/INFO]: [Umbaska] Registering a(n) expression with syntax: %players% flying
+[20:49:46] [Server thread/INFO]: [Umbaska] And: flying %players%
+[20:49:46] [Server thread/INFO]: [Umbaska] Checking uk.co.umbaska.modules.misc.expressions.ExprPlayersInsideVehicle
+[20:49:46] [Server thread/INFO]: [Umbaska] Registering a(n) expression with syntax: %players% [(driving|riding)] (in[side]|on) [a] vehicle[s]
+[20:49:46] [Server thread/INFO]: [Umbaska] Checking uk.co.umbaska.modules.misc.expressions.ExprPlayersInWorld
+[20:49:46] [Server thread/INFO]: [Umbaska] Registering a(n) expression with syntax: %players% in world %world%
+[20:49:46] [Server thread/INFO]: [Umbaska] Checking uk.co.umbaska.modules.misc.expressions.ExprPlayersSleeping
+[20:49:46] [Server thread/INFO]: [Umbaska] Registering a(n) expression with syntax: %players% sleeping
+[20:49:46] [Server thread/INFO]: [Umbaska] And: sleeping %players%
+[20:49:46] [Server thread/INFO]: [Umbaska] Checking uk.co.umbaska.modules.misc.expressions.ExprPlayersSneaking
+[20:49:46] [Server thread/INFO]: [Umbaska] Registering a(n) expression with syntax: %players% sneaking
+[20:49:46] [Server thread/INFO]: [Umbaska] And: sneaking %players%
+[20:49:46] [Server thread/INFO]: [Umbaska] Checking uk.co.umbaska.modules.misc.expressions.ExprPlayersWithPermission
+[20:49:46] [Server thread/INFO]: [Umbaska] Registering a(n) expression with syntax: %players% with perm[ission[[ ]node]] %string%
+[20:49:46] [Server thread/INFO]: [Umbaska] Checking uk.co.umbaska.modules.misc.expressions.ExprTab
+[20:49:46] [Server thread/INFO]: [Umbaska] Registering a(n) expression with syntax: new[ ]line
+[20:49:46] [Server thread/INFO]: [Umbaska] And: tab [char[acter]]
+[20:49:46] [Server thread/INFO]: [Umbaska] Checking uk.co.umbaska.modules.misc.expressions.ExprTimeSpanToUnits
+[20:49:46] [Server thread/INFO]: [Umbaska] Registering a(n) expression with syntax: %timespan% converted to milliseconds
+[20:49:46] [Server thread/INFO]: [Umbaska] And: %timespan% converted to seconds
+[20:49:46] [Server thread/INFO]: [Umbaska] And: %timespan% converted to minutes
+[20:49:46] [Server thread/INFO]: [Umbaska] And: %timespan% converted to hours
+[20:49:46] [Server thread/INFO]: [Umbaska] And: %timespan% converted to days
+[20:49:46] [Server thread/INFO]: [Umbaska] And: %timespan% converted to ticks
+[20:49:46] [Server thread/INFO]: [Umbaska] And: %timespan% converted to (minecraft|mc) minutes
+[20:49:46] [Server thread/INFO]: [Umbaska] And: %timespan% converted to (minecraft|mc) hours
+[20:49:46] [Server thread/INFO]: [Umbaska] And: %timespan% converted to (minecraft|mc) days
+[20:49:46] [Server thread/INFO]: [Umbaska] Checking uk.co.umbaska.modules.misc.expressions.ExprUnitsFromTimeSpanDate
+[20:49:46] [Server thread/INFO]: [Umbaska] Registering a(n) expression with syntax: millisecond[s] (of|from) %date/timespan%
+[20:49:46] [Server thread/INFO]: [Umbaska] And: second[s] (of|from) %date/timespan%
+[20:49:46] [Server thread/INFO]: [Umbaska] And: minute[s] (of|from) %date/timespan%
+[20:49:46] [Server thread/INFO]: [Umbaska] And: hour[s] [of day] (of|from) %date/timespan%
+[20:49:46] [Server thread/INFO]: [Umbaska] And: day[s] of week (of|from) %date/timespan%
+[20:49:46] [Server thread/INFO]: [Umbaska] And: day[s] of month (of|from) %date/timespan%
+[20:49:46] [Server thread/INFO]: [Umbaska] And: day[s] of year (of|from) %date/timespan%
+[20:49:46] [Server thread/INFO]: [Umbaska] And: week[s] of month (of|from) %date/timespan%
+[20:49:46] [Server thread/INFO]: [Umbaska] And: week[s] of year (of|from) %date/timespan%
+[20:49:46] [Server thread/INFO]: [Umbaska] And: month[s] (of|from) %date/timespan%
+[20:49:46] [Server thread/INFO]: [Umbaska] And: year[s] (of|from) %date/timespan%
+[20:49:46] [Server thread/INFO]: [Umbaska] Checking uk.co.umbaska.modules.misc.expressions.ExprUrlDecodedText
+[20:49:46] [Server thread/INFO]: [Umbaska] Registering a(n) expression with syntax: url decoded %string%
+[20:49:46] [Server thread/INFO]: [Umbaska] Checking uk.co.umbaska.modules.misc.expressions.ExprUrlEncodedText
+[20:49:46] [Server thread/INFO]: [Umbaska] Registering a(n) expression with syntax: url encoded %string%
+[20:49:46] [Server thread/INFO]: [Umbaska] Checking uk.co.umbaska.modules.misc.factions.EffClaimLand
+[20:49:46] [Server thread/INFO]: [Umbaska] The dependency Factions cannot be resolved, so I'm not going to register this effect
+[20:49:46] [Server thread/INFO]: [Umbaska] Checking uk.co.umbaska.modules.misc.factions.EffCreateFaction
+[20:49:46] [Server thread/INFO]: [Umbaska] The dependency Factions cannot be resolved, so I'm not going to register this effect
+[20:49:46] [Server thread/INFO]: [Umbaska] Checking uk.co.umbaska.modules.misc.factions.EffInvitePlayer
+[20:49:46] [Server thread/INFO]: [Umbaska] The dependency Factions cannot be resolved, so I'm not going to register this effect
+[20:49:46] [Server thread/INFO]: [Umbaska] Checking uk.co.umbaska.modules.misc.factions.EffKickPlayer
+[20:49:46] [Server thread/INFO]: [Umbaska] The dependency Factions cannot be resolved, so I'm not going to register this effect
+[20:49:46] [Server thread/INFO]: [Umbaska] Checking uk.co.umbaska.modules.misc.factions.EffUnClaimLand
+[20:49:46] [Server thread/INFO]: [Umbaska] The dependency Factions cannot be resolved, so I'm not going to register this effect
+[20:49:46] [Server thread/INFO]: [Umbaska] Checking uk.co.umbaska.modules.misc.factions.ExprAllFactions
+[20:49:46] [Server thread/INFO]: [Umbaska] The dependency Factions cannot be resolved, so I'm not going to register this expression
+[20:49:46] [Server thread/INFO]: [Umbaska] Checking uk.co.umbaska.modules.misc.factions.ExprAlliesOfFaction
+[20:49:46] [Server thread/INFO]: [Umbaska] The dependency Factions cannot be resolved, so I'm not going to register this expression
+[20:49:46] [Server thread/INFO]: [Umbaska] Checking uk.co.umbaska.modules.misc.factions.ExprDescriptionOfFaction
+[20:49:46] [Server thread/INFO]: [Umbaska] The dependency Factions cannot be resolved, so I'm not going to register this simple property expression
+[20:49:46] [Server thread/INFO]: [Umbaska] Checking uk.co.umbaska.modules.misc.factions.ExprEnemiesOfFaction
+[20:49:46] [Server thread/INFO]: [Umbaska] The dependency Factions cannot be resolved, so I'm not going to register this expression
+[20:49:46] [Server thread/INFO]: [Umbaska] Checking uk.co.umbaska.modules.misc.factions.ExprFactionAtLocation
+[20:49:46] [Server thread/INFO]: [Umbaska] The dependency Factions cannot be resolved, so I'm not going to register this expression
+[20:49:46] [Server thread/INFO]: [Umbaska] Checking uk.co.umbaska.modules.misc.factions.ExprFactionOfPlayer
+[20:49:46] [Server thread/INFO]: [Umbaska] The dependency Factions cannot be resolved, so I'm not going to register this simple property expression
+[20:49:46] [Server thread/INFO]: [Umbaska] Checking uk.co.umbaska.modules.misc.factions.ExprHomeOfFaction
+[20:49:46] [Server thread/INFO]: [Umbaska] The dependency Factions cannot be resolved, so I'm not going to register this simple property expression
+[20:49:46] [Server thread/INFO]: [Umbaska] Checking uk.co.umbaska.modules.misc.factions.ExprMOTDOfFaction
+[20:49:46] [Server thread/INFO]: [Umbaska] The dependency Factions cannot be resolved, so I'm not going to register this simple property expression
+[20:49:46] [Server thread/INFO]: [Umbaska] Checking uk.co.umbaska.modules.misc.factions.ExprNameOfFaction
+[20:49:46] [Server thread/INFO]: [Umbaska] The dependency Factions cannot be resolved, so I'm not going to register this simple property expression
+[20:49:46] [Server thread/INFO]: [Umbaska] Checking uk.co.umbaska.modules.misc.factions.ExprPlayersOfFaction
+[20:49:46] [Server thread/INFO]: [Umbaska] The dependency Factions cannot be resolved, so I'm not going to register this expression
+[20:49:46] [Server thread/INFO]: [Umbaska] Checking uk.co.umbaska.modules.misc.factions.TypeFactionsRelation
+[20:49:46] [Server thread/INFO]: [Umbaska] [uk.co.umbaska.modules.misc.factions.TypeFactionsRelation] The dependency Factions cannot be resolved, so I'm not going to register this type
+[20:49:46] [Server thread/INFO]: [Umbaska] Checking uk.co.umbaska.modules.misc.umbaccess.EffInvokeMethod
+[20:49:46] [Server thread/INFO]: [Umbaska] Registering a(n) effect with syntax: invoke [[u]method] %umethod% [with param[eter][s] %-objects%]
+[20:49:46] [Server thread/INFO]: [Umbaska] Checking uk.co.umbaska.modules.misc.umbaccess.ExprMethod
+[20:49:46] [Server thread/INFO]: [Umbaska] Registering a(n) expression with syntax: method %string% with param[eter] type[s] %strings% (of|from) [[u]class] %uclazz%
+[20:49:46] [Server thread/INFO]: [Umbaska] And: method %string% (of|from) [[u]clazz] %uclazz% with param[eter] type[s] %strings%
+[20:49:46] [Server thread/INFO]: [Umbaska] Checking uk.co.umbaska.modules.misc.umbaccess.TypeUClass
+[20:49:46] [Server thread/INFO]: [Umbaska] Checking uk.co.umbaska.modules.misc.umbaccess.TypeUMethod
+[20:49:46] [Server thread/INFO]: [Umbaska] Checking uk.co.umbaska.modules.misc.yaml.ExprGetValue
+[20:49:46] [Server thread/INFO]: [Umbaska] Registering a(n) expression with syntax: [yaml] value [from] [path] %string% in [file] %string%
+[20:49:46] [Server thread/INFO]: [Umbaska Module Manager] All modules have been enabled and hooked into Skript!
+[20:49:46] [Server thread/INFO]: [Umbaska] v1_11_R1
+[20:49:46] [Server thread/WARN]: [Skript] The plugin Umbaska uses a non-standard version syntax: '3-dev34'. Skript will use 3.0 instead.
+[20:49:46] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:49:46] [Server thread/INFO]: Done (9.041s)! For help, type "help" or "?"
+[20:49:46] [Server thread/INFO]: [Skript] Loading variables...
+[20:49:46] [Server thread/INFO]: [Skript] Loaded 0 variables in 0.0 seconds
+[20:49:47] [Server thread/ERROR]: [Skript] Can't understand this condition/effect: remove 100 from the player's money (shopstp.sk, line 15: remove 100 from the player's money')
+[20:49:47] [Server thread/WARN]: [Skript] Possible name conflict of variables {playershops::*} and {playershops::%arg-2%} (there might be more conflicts). (shopstp.sk, line 24: remove arg-2 from {playershops::*}')
+[20:49:47] [Craft Scheduler Thread - 0/INFO]: [0;37;22m[[0;33;22mSkript[0;37;22m][m You're currently running the latest stable version of Skript.[m
+[20:49:47] [Server thread/WARN]: [Skript] Possible name conflict of variables {p-shoplist::%arg-2%} and {p-shoplist::*} (there might be more conflicts). (shopstp.sk, line 27: remove arg-2 from {p-shoplist::%arg-2%}')
+[20:49:47] [Server thread/INFO]: [Skript] Loaded 1 script with a total of 0 triggers and 2 commands in 0.25 seconds
+[20:49:47] [Server thread/INFO]: [Skript] Finished loading.
+[20:50:45] [Server thread/INFO]: [0;37;22m[[0;33;22mSkript[0;37;22m][m Reloading [0;33;22mshopstp.sk[m...[m
+[20:50:45] [Server thread/ERROR]: Can't understand this condition/effect: remove 100 from the player's money (shopstp.sk, line 15: remove 100 from the player's money')
+[20:50:45] [Server thread/INFO]: [0;37;22m[[0;33;22mSkript[0;37;22m][m [0;31;22mEncountered 1 error while reloading [0;33;22mshopstp.sk[m![m

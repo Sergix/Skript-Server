@@ -1,139 +1,139 @@
-[13:36:15] The config C:\Users\Sergi\Documents\GitHub\Skript-Server\plugins\Umbaska\config.yml is up to date (version 6)
-[13:36:15] odule Manager] Checking C:\Users\Sergi\Documents\GitHub\Skript-Server\plugins\Umbaska\modules\Core.jar
-[13:36:15] odule Manager] Loading module Core v0.1.0 (1)
-[13:36:15] odule Manager] Enabling module Core v0.1.0 (1)
-[13:36:15] Found 51 elements to register out of 87 classes in package uk.co.umbaska.modules.misc
-[13:36:15] Checking uk.co.umbaska.modules.misc.betatesting.CopyOfEffLateRegister
-[13:36:15] [Fail] Couldn't register this effect because the Syntaxes annotation is null
-[13:36:15] Checking uk.co.umbaska.modules.misc.betatesting.EffLateRegister
-[13:36:15] Registering a(n) effect with syntax: perform a late register
-[13:36:15] Checking uk.co.umbaska.modules.misc.conditions.CondAlwaysFalse
-[13:36:15] Registering a(n) condition with syntax: always false
-[13:36:15] And: never true
-[13:36:15] And: (skript|umbaska) is not great
-[13:36:15] Checking uk.co.umbaska.modules.misc.conditions.CondAlwaysTrue
-[13:36:15] Registering a(n) condition with syntax: always true
-[13:36:15] And: never false
-[13:36:15] And: (skript|umbaska) is great
-[13:36:15] Checking uk.co.umbaska.modules.misc.effects.EffDisableAllPlugins
-[13:36:15] Registering a(n) effect with syntax: disable all plugins
-[13:36:15] And: disable every plugin
-[13:36:15] Checking uk.co.umbaska.modules.misc.effects.EffEvaluateSkriptCode
-[13:36:15] [uk.co.umbaska.modules.misc.effects.EffEvaluateSkriptCode] Detected annotation DontRegister. Aborting.
-[13:36:15] Checking uk.co.umbaska.modules.misc.effects.EffThrowRuntimeException
-[13:36:15] Registering a(n) effect with syntax: throw [a] runtime[ ]exception
-[13:36:15] Checking uk.co.umbaska.modules.misc.effects.ExecuteSkriptCodeFromText
-[13:36:15] Registering a(n) effect with syntax: execute [(skript|script)] code [from (text|lines)] %strings%
-[13:36:15] Checking uk.co.umbaska.modules.misc.effects.LoadScriptFromText
-[13:36:15] Registering a(n) effect with syntax: load [a] (script|skript) from (text|lines) %strings%
-[13:36:15] Checking uk.co.umbaska.modules.misc.expressions.ExprClassNameOfObject
-[13:36:15] Registering a(n) expression with syntax: [the] class[[ ]name] of [the] [object] %object%
-[13:36:15] And: [the] name of [the] class of [the] [object] %object%
-[13:36:15] Checking uk.co.umbaska.modules.misc.expressions.ExprFullTime
-[13:36:15] Registering a(n) expression with syntax: (full|total)[ ]time of %world%
-[13:36:15] And: %world%'s (full|total)[ ]time
-[13:36:15] Checking uk.co.umbaska.modules.misc.expressions.ExprJsonArray
-[13:36:15] Registering a(n) expression with syntax: json (string|text) %string% from [json] %string%
-[13:36:15] Checking uk.co.umbaska.modules.misc.expressions.ExprJsonString
-[13:36:15] Registering a(n) expression with syntax: json (string|text) %string% from [json] %string%
-[13:36:15] Checking uk.co.umbaska.modules.misc.expressions.ExprModuleVersion
-[13:36:15] Registering a(n) expression with syntax: [the] version [string] of [the] [umbaska] module [(named|with name)] %string%
-[13:36:15] Checking uk.co.umbaska.modules.misc.expressions.ExprNewChunk
-[13:36:15] Registering a(n) expression with syntax: new chunk
-[13:36:15] Checking uk.co.umbaska.modules.misc.expressions.ExprNewLine
-[13:36:15] Registering a(n) expression with syntax: new[ ]line
-[13:36:15] And: nl
-[13:36:15] And: system line
-[13:36:15] Checking uk.co.umbaska.modules.misc.expressions.ExprObjectAtPosition
-[13:36:15] Registering a(n) expression with syntax: %*classinfo% at [the] pos[ition] %number% (of|in) [the] [(list|array)] %objects%
-[13:36:15] Checking uk.co.umbaska.modules.misc.expressions.ExprOldChunk
-[13:36:15] Registering a(n) expression with syntax: old chunk
-[13:36:15] Checking uk.co.umbaska.modules.misc.expressions.ExprPastebin
-[13:36:15] [uk.co.umbaska.modules.misc.expressions.ExprPastebin] Detected annotation DontRegister. Aborting.
-[13:36:15] Checking uk.co.umbaska.modules.misc.expressions.ExprPlayersFlying
-[13:36:15] Registering a(n) expression with syntax: %players% flying
-[13:36:15] And: flying %players%
-[13:36:15] Checking uk.co.umbaska.modules.misc.expressions.ExprPlayersInsideVehicle
-[13:36:15] Registering a(n) expression with syntax: %players% [(driving|riding)] (in[side]|on) [a] vehicle[s]
-[13:36:15] Checking uk.co.umbaska.modules.misc.expressions.ExprPlayersInWorld
-[13:36:15] Registering a(n) expression with syntax: %players% in world %world%
-[13:36:15] Checking uk.co.umbaska.modules.misc.expressions.ExprPlayersSleeping
-[13:36:15] Registering a(n) expression with syntax: %players% sleeping
-[13:36:15] And: sleeping %players%
-[13:36:15] Checking uk.co.umbaska.modules.misc.expressions.ExprPlayersSneaking
-[13:36:15] Registering a(n) expression with syntax: %players% sneaking
-[13:36:15] And: sneaking %players%
-[13:36:15] Checking uk.co.umbaska.modules.misc.expressions.ExprPlayersWithPermission
-[13:36:15] Registering a(n) expression with syntax: %players% with perm[ission[[ ]node]] %string%
-[13:36:15] Checking uk.co.umbaska.modules.misc.expressions.ExprTab
-[13:36:15] Registering a(n) expression with syntax: new[ ]line
-[13:36:15] And: tab [char[acter]]
-[13:36:15] Checking uk.co.umbaska.modules.misc.expressions.ExprTimeSpanToUnits
-[13:36:15] Registering a(n) expression with syntax: %timespan% converted to milliseconds
-[13:36:15] And: %timespan% converted to seconds
-[13:36:15] And: %timespan% converted to minutes
-[13:36:15] And: %timespan% converted to hours
-[13:36:15] And: %timespan% converted to days
-[13:36:15] And: %timespan% converted to ticks
-[13:36:15] And: %timespan% converted to (minecraft|mc) minutes
-[13:36:15] And: %timespan% converted to (minecraft|mc) hours
-[13:36:15] And: %timespan% converted to (minecraft|mc) days
-[13:36:15] Checking uk.co.umbaska.modules.misc.expressions.ExprUnitsFromTimeSpanDate
-[13:36:15] Registering a(n) expression with syntax: millisecond[s] (of|from) %date/timespan%
-[13:36:15] And: second[s] (of|from) %date/timespan%
-[13:36:15] And: minute[s] (of|from) %date/timespan%
-[13:36:15] And: hour[s] [of day] (of|from) %date/timespan%
-[13:36:15] And: day[s] of week (of|from) %date/timespan%
-[13:36:15] And: day[s] of month (of|from) %date/timespan%
-[13:36:15] And: day[s] of year (of|from) %date/timespan%
-[13:36:15] And: week[s] of month (of|from) %date/timespan%
-[13:36:15] And: week[s] of year (of|from) %date/timespan%
-[13:36:15] And: month[s] (of|from) %date/timespan%
-[13:36:15] And: year[s] (of|from) %date/timespan%
-[13:36:15] Checking uk.co.umbaska.modules.misc.expressions.ExprUrlDecodedText
-[13:36:15] Registering a(n) expression with syntax: url decoded %string%
-[13:36:15] Checking uk.co.umbaska.modules.misc.expressions.ExprUrlEncodedText
-[13:36:15] Registering a(n) expression with syntax: url encoded %string%
-[13:36:15] Checking uk.co.umbaska.modules.misc.factions.EffClaimLand
-[13:36:15] The dependency Factions cannot be resolved, so I'm not going to register this effect
-[13:36:15] Checking uk.co.umbaska.modules.misc.factions.EffCreateFaction
-[13:36:15] The dependency Factions cannot be resolved, so I'm not going to register this effect
-[13:36:15] Checking uk.co.umbaska.modules.misc.factions.EffInvitePlayer
-[13:36:15] The dependency Factions cannot be resolved, so I'm not going to register this effect
-[13:36:15] Checking uk.co.umbaska.modules.misc.factions.EffKickPlayer
-[13:36:15] The dependency Factions cannot be resolved, so I'm not going to register this effect
-[13:36:15] Checking uk.co.umbaska.modules.misc.factions.EffUnClaimLand
-[13:36:15] The dependency Factions cannot be resolved, so I'm not going to register this effect
-[13:36:15] Checking uk.co.umbaska.modules.misc.factions.ExprAllFactions
-[13:36:15] The dependency Factions cannot be resolved, so I'm not going to register this expression
-[13:36:15] Checking uk.co.umbaska.modules.misc.factions.ExprAlliesOfFaction
-[13:36:15] The dependency Factions cannot be resolved, so I'm not going to register this expression
-[13:36:15] Checking uk.co.umbaska.modules.misc.factions.ExprDescriptionOfFaction
-[13:36:15] The dependency Factions cannot be resolved, so I'm not going to register this simple property expression
-[13:36:15] Checking uk.co.umbaska.modules.misc.factions.ExprEnemiesOfFaction
-[13:36:15] The dependency Factions cannot be resolved, so I'm not going to register this expression
-[13:36:15] Checking uk.co.umbaska.modules.misc.factions.ExprFactionAtLocation
-[13:36:15] The dependency Factions cannot be resolved, so I'm not going to register this expression
-[13:36:15] Checking uk.co.umbaska.modules.misc.factions.ExprFactionOfPlayer
-[13:36:15] The dependency Factions cannot be resolved, so I'm not going to register this simple property expression
-[13:36:15] Checking uk.co.umbaska.modules.misc.factions.ExprHomeOfFaction
-[13:36:15] The dependency Factions cannot be resolved, so I'm not going to register this simple property expression
-[13:36:15] Checking uk.co.umbaska.modules.misc.factions.ExprMOTDOfFaction
-[13:36:15] The dependency Factions cannot be resolved, so I'm not going to register this simple property expression
-[13:36:15] Checking uk.co.umbaska.modules.misc.factions.ExprNameOfFaction
-[13:36:15] The dependency Factions cannot be resolved, so I'm not going to register this simple property expression
-[13:36:15] Checking uk.co.umbaska.modules.misc.factions.ExprPlayersOfFaction
-[13:36:15] The dependency Factions cannot be resolved, so I'm not going to register this expression
-[13:36:15] Checking uk.co.umbaska.modules.misc.factions.TypeFactionsRelation
-[13:36:15] [uk.co.umbaska.modules.misc.factions.TypeFactionsRelation] The dependency Factions cannot be resolved, so I'm not going to register this type
-[13:36:15] Checking uk.co.umbaska.modules.misc.umbaccess.EffInvokeMethod
-[13:36:15] Registering a(n) effect with syntax: invoke [[u]method] %umethod% [with param[eter][s] %-objects%]
-[13:36:15] Checking uk.co.umbaska.modules.misc.umbaccess.ExprMethod
-[13:36:15] Registering a(n) expression with syntax: method %string% with param[eter] type[s] %strings% (of|from) [[u]class] %uclazz%
-[13:36:15] And: method %string% (of|from) [[u]clazz] %uclazz% with param[eter] type[s] %strings%
-[13:36:15] Checking uk.co.umbaska.modules.misc.umbaccess.TypeUClass
-[13:36:15] Checking uk.co.umbaska.modules.misc.umbaccess.TypeUMethod
-[13:36:15] Checking uk.co.umbaska.modules.misc.yaml.ExprGetValue
-[13:36:15] Registering a(n) expression with syntax: [yaml] value [from] [path] %string% in [file] %string%
-[13:36:15] odule Manager] All modules have been enabled and hooked into Skript!
-[13:36:15] v1_11_R1
+[20:49:46] The config C:\Users\Sergi\Documents\GitHub\Skript-Server\plugins\Umbaska\config.yml is up to date (version 6)
+[20:49:46] odule Manager] Checking C:\Users\Sergi\Documents\GitHub\Skript-Server\plugins\Umbaska\modules\Core.jar
+[20:49:46] odule Manager] Loading module Core v0.1.0 (1)
+[20:49:46] odule Manager] Enabling module Core v0.1.0 (1)
+[20:49:46] Found 51 elements to register out of 87 classes in package uk.co.umbaska.modules.misc
+[20:49:46] Checking uk.co.umbaska.modules.misc.betatesting.CopyOfEffLateRegister
+[20:49:46] [Fail] Couldn't register this effect because the Syntaxes annotation is null
+[20:49:46] Checking uk.co.umbaska.modules.misc.betatesting.EffLateRegister
+[20:49:46] Registering a(n) effect with syntax: perform a late register
+[20:49:46] Checking uk.co.umbaska.modules.misc.conditions.CondAlwaysFalse
+[20:49:46] Registering a(n) condition with syntax: always false
+[20:49:46] And: never true
+[20:49:46] And: (skript|umbaska) is not great
+[20:49:46] Checking uk.co.umbaska.modules.misc.conditions.CondAlwaysTrue
+[20:49:46] Registering a(n) condition with syntax: always true
+[20:49:46] And: never false
+[20:49:46] And: (skript|umbaska) is great
+[20:49:46] Checking uk.co.umbaska.modules.misc.effects.EffDisableAllPlugins
+[20:49:46] Registering a(n) effect with syntax: disable all plugins
+[20:49:46] And: disable every plugin
+[20:49:46] Checking uk.co.umbaska.modules.misc.effects.EffEvaluateSkriptCode
+[20:49:46] [uk.co.umbaska.modules.misc.effects.EffEvaluateSkriptCode] Detected annotation DontRegister. Aborting.
+[20:49:46] Checking uk.co.umbaska.modules.misc.effects.EffThrowRuntimeException
+[20:49:46] Registering a(n) effect with syntax: throw [a] runtime[ ]exception
+[20:49:46] Checking uk.co.umbaska.modules.misc.effects.ExecuteSkriptCodeFromText
+[20:49:46] Registering a(n) effect with syntax: execute [(skript|script)] code [from (text|lines)] %strings%
+[20:49:46] Checking uk.co.umbaska.modules.misc.effects.LoadScriptFromText
+[20:49:46] Registering a(n) effect with syntax: load [a] (script|skript) from (text|lines) %strings%
+[20:49:46] Checking uk.co.umbaska.modules.misc.expressions.ExprClassNameOfObject
+[20:49:46] Registering a(n) expression with syntax: [the] class[[ ]name] of [the] [object] %object%
+[20:49:46] And: [the] name of [the] class of [the] [object] %object%
+[20:49:46] Checking uk.co.umbaska.modules.misc.expressions.ExprFullTime
+[20:49:46] Registering a(n) expression with syntax: (full|total)[ ]time of %world%
+[20:49:46] And: %world%'s (full|total)[ ]time
+[20:49:46] Checking uk.co.umbaska.modules.misc.expressions.ExprJsonArray
+[20:49:46] Registering a(n) expression with syntax: json (string|text) %string% from [json] %string%
+[20:49:46] Checking uk.co.umbaska.modules.misc.expressions.ExprJsonString
+[20:49:46] Registering a(n) expression with syntax: json (string|text) %string% from [json] %string%
+[20:49:46] Checking uk.co.umbaska.modules.misc.expressions.ExprModuleVersion
+[20:49:46] Registering a(n) expression with syntax: [the] version [string] of [the] [umbaska] module [(named|with name)] %string%
+[20:49:46] Checking uk.co.umbaska.modules.misc.expressions.ExprNewChunk
+[20:49:46] Registering a(n) expression with syntax: new chunk
+[20:49:46] Checking uk.co.umbaska.modules.misc.expressions.ExprNewLine
+[20:49:46] Registering a(n) expression with syntax: new[ ]line
+[20:49:46] And: nl
+[20:49:46] And: system line
+[20:49:46] Checking uk.co.umbaska.modules.misc.expressions.ExprObjectAtPosition
+[20:49:46] Registering a(n) expression with syntax: %*classinfo% at [the] pos[ition] %number% (of|in) [the] [(list|array)] %objects%
+[20:49:46] Checking uk.co.umbaska.modules.misc.expressions.ExprOldChunk
+[20:49:46] Registering a(n) expression with syntax: old chunk
+[20:49:46] Checking uk.co.umbaska.modules.misc.expressions.ExprPastebin
+[20:49:46] [uk.co.umbaska.modules.misc.expressions.ExprPastebin] Detected annotation DontRegister. Aborting.
+[20:49:46] Checking uk.co.umbaska.modules.misc.expressions.ExprPlayersFlying
+[20:49:46] Registering a(n) expression with syntax: %players% flying
+[20:49:46] And: flying %players%
+[20:49:46] Checking uk.co.umbaska.modules.misc.expressions.ExprPlayersInsideVehicle
+[20:49:46] Registering a(n) expression with syntax: %players% [(driving|riding)] (in[side]|on) [a] vehicle[s]
+[20:49:46] Checking uk.co.umbaska.modules.misc.expressions.ExprPlayersInWorld
+[20:49:46] Registering a(n) expression with syntax: %players% in world %world%
+[20:49:46] Checking uk.co.umbaska.modules.misc.expressions.ExprPlayersSleeping
+[20:49:46] Registering a(n) expression with syntax: %players% sleeping
+[20:49:46] And: sleeping %players%
+[20:49:46] Checking uk.co.umbaska.modules.misc.expressions.ExprPlayersSneaking
+[20:49:46] Registering a(n) expression with syntax: %players% sneaking
+[20:49:46] And: sneaking %players%
+[20:49:46] Checking uk.co.umbaska.modules.misc.expressions.ExprPlayersWithPermission
+[20:49:46] Registering a(n) expression with syntax: %players% with perm[ission[[ ]node]] %string%
+[20:49:46] Checking uk.co.umbaska.modules.misc.expressions.ExprTab
+[20:49:46] Registering a(n) expression with syntax: new[ ]line
+[20:49:46] And: tab [char[acter]]
+[20:49:46] Checking uk.co.umbaska.modules.misc.expressions.ExprTimeSpanToUnits
+[20:49:46] Registering a(n) expression with syntax: %timespan% converted to milliseconds
+[20:49:46] And: %timespan% converted to seconds
+[20:49:46] And: %timespan% converted to minutes
+[20:49:46] And: %timespan% converted to hours
+[20:49:46] And: %timespan% converted to days
+[20:49:46] And: %timespan% converted to ticks
+[20:49:46] And: %timespan% converted to (minecraft|mc) minutes
+[20:49:46] And: %timespan% converted to (minecraft|mc) hours
+[20:49:46] And: %timespan% converted to (minecraft|mc) days
+[20:49:46] Checking uk.co.umbaska.modules.misc.expressions.ExprUnitsFromTimeSpanDate
+[20:49:46] Registering a(n) expression with syntax: millisecond[s] (of|from) %date/timespan%
+[20:49:46] And: second[s] (of|from) %date/timespan%
+[20:49:46] And: minute[s] (of|from) %date/timespan%
+[20:49:46] And: hour[s] [of day] (of|from) %date/timespan%
+[20:49:46] And: day[s] of week (of|from) %date/timespan%
+[20:49:46] And: day[s] of month (of|from) %date/timespan%
+[20:49:46] And: day[s] of year (of|from) %date/timespan%
+[20:49:46] And: week[s] of month (of|from) %date/timespan%
+[20:49:46] And: week[s] of year (of|from) %date/timespan%
+[20:49:46] And: month[s] (of|from) %date/timespan%
+[20:49:46] And: year[s] (of|from) %date/timespan%
+[20:49:46] Checking uk.co.umbaska.modules.misc.expressions.ExprUrlDecodedText
+[20:49:46] Registering a(n) expression with syntax: url decoded %string%
+[20:49:46] Checking uk.co.umbaska.modules.misc.expressions.ExprUrlEncodedText
+[20:49:46] Registering a(n) expression with syntax: url encoded %string%
+[20:49:46] Checking uk.co.umbaska.modules.misc.factions.EffClaimLand
+[20:49:46] The dependency Factions cannot be resolved, so I'm not going to register this effect
+[20:49:46] Checking uk.co.umbaska.modules.misc.factions.EffCreateFaction
+[20:49:46] The dependency Factions cannot be resolved, so I'm not going to register this effect
+[20:49:46] Checking uk.co.umbaska.modules.misc.factions.EffInvitePlayer
+[20:49:46] The dependency Factions cannot be resolved, so I'm not going to register this effect
+[20:49:46] Checking uk.co.umbaska.modules.misc.factions.EffKickPlayer
+[20:49:46] The dependency Factions cannot be resolved, so I'm not going to register this effect
+[20:49:46] Checking uk.co.umbaska.modules.misc.factions.EffUnClaimLand
+[20:49:46] The dependency Factions cannot be resolved, so I'm not going to register this effect
+[20:49:46] Checking uk.co.umbaska.modules.misc.factions.ExprAllFactions
+[20:49:46] The dependency Factions cannot be resolved, so I'm not going to register this expression
+[20:49:46] Checking uk.co.umbaska.modules.misc.factions.ExprAlliesOfFaction
+[20:49:46] The dependency Factions cannot be resolved, so I'm not going to register this expression
+[20:49:46] Checking uk.co.umbaska.modules.misc.factions.ExprDescriptionOfFaction
+[20:49:46] The dependency Factions cannot be resolved, so I'm not going to register this simple property expression
+[20:49:46] Checking uk.co.umbaska.modules.misc.factions.ExprEnemiesOfFaction
+[20:49:46] The dependency Factions cannot be resolved, so I'm not going to register this expression
+[20:49:46] Checking uk.co.umbaska.modules.misc.factions.ExprFactionAtLocation
+[20:49:46] The dependency Factions cannot be resolved, so I'm not going to register this expression
+[20:49:46] Checking uk.co.umbaska.modules.misc.factions.ExprFactionOfPlayer
+[20:49:46] The dependency Factions cannot be resolved, so I'm not going to register this simple property expression
+[20:49:46] Checking uk.co.umbaska.modules.misc.factions.ExprHomeOfFaction
+[20:49:46] The dependency Factions cannot be resolved, so I'm not going to register this simple property expression
+[20:49:46] Checking uk.co.umbaska.modules.misc.factions.ExprMOTDOfFaction
+[20:49:46] The dependency Factions cannot be resolved, so I'm not going to register this simple property expression
+[20:49:46] Checking uk.co.umbaska.modules.misc.factions.ExprNameOfFaction
+[20:49:46] The dependency Factions cannot be resolved, so I'm not going to register this simple property expression
+[20:49:46] Checking uk.co.umbaska.modules.misc.factions.ExprPlayersOfFaction
+[20:49:46] The dependency Factions cannot be resolved, so I'm not going to register this expression
+[20:49:46] Checking uk.co.umbaska.modules.misc.factions.TypeFactionsRelation
+[20:49:46] [uk.co.umbaska.modules.misc.factions.TypeFactionsRelation] The dependency Factions cannot be resolved, so I'm not going to register this type
+[20:49:46] Checking uk.co.umbaska.modules.misc.umbaccess.EffInvokeMethod
+[20:49:46] Registering a(n) effect with syntax: invoke [[u]method] %umethod% [with param[eter][s] %-objects%]
+[20:49:46] Checking uk.co.umbaska.modules.misc.umbaccess.ExprMethod
+[20:49:46] Registering a(n) expression with syntax: method %string% with param[eter] type[s] %strings% (of|from) [[u]class] %uclazz%
+[20:49:46] And: method %string% (of|from) [[u]clazz] %uclazz% with param[eter] type[s] %strings%
+[20:49:46] Checking uk.co.umbaska.modules.misc.umbaccess.TypeUClass
+[20:49:46] Checking uk.co.umbaska.modules.misc.umbaccess.TypeUMethod
+[20:49:46] Checking uk.co.umbaska.modules.misc.yaml.ExprGetValue
+[20:49:46] Registering a(n) expression with syntax: [yaml] value [from] [path] %string% in [file] %string%
+[20:49:46] odule Manager] All modules have been enabled and hooked into Skript!
+[20:49:46] v1_11_R1

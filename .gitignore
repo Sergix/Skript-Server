@@ -16,3 +16,14 @@
 #################################
 *.yml
 *.properties
+*.log
+logs/latest.log
+*.yml
+world/session.lock
+*.lock
+world_the_end/session.lock
+*.lock
+world/region/r.-1.0.mca
+*.yml
+spigot.yml
+*.log
